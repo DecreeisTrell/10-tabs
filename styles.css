@@ -40,6 +40,10 @@ code {
     border-radius: 10px 10px 0 0 ;
     text-align: center;
     text-decoration: none;
+    color: white;
+
+
+
 }
 
 .nav-link:hover {
@@ -48,4 +52,10 @@ code {
 
 .current-page {
     background-color: beige;
+}
+.home-color {
+    color: chocolate;
+}
+.text-color {
+    color: forestgreen;
 }
