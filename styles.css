@@ -1,0 +1,51 @@
+html {
+    background-color: pink;
+}
+code {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.site-header {
+    background-color: chocolate;
+    color: beige;
+    border-radius: 20px 20px 0 0;
+    padding: 20px 20px 0px 20px;
+}
+
+.site-main {
+    background-color: beige;
+    border-radius: 0 0 20px 20px;
+    padding: 20px;
+}
+.site-nav {
+    display: flex;
+    list-style-type: none;
+    padding: 0%;
+    margin: 19px 0 0 0;
+    justify-content: space-between;
+    gap: 4px;
+    
+}
+.site-nav li {
+    flex: 1 1 0;
+}
+.nav-link {
+    background-color: rgb(165, 77, 18);
+    display: block;
+    padding: 15px 0px;
+    border-radius: 10px 10px 0 0 ;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: orange;
+}
+
+.current-page {
+    background-color: beige;
+}
